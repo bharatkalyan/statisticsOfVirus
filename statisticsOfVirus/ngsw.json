@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1614841474818,
+  "index": "https://bharatkalyan.github.io/statisticsOfVirus/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://bharatkalyan.github.io/statisticsOfVirus/canvg.2ccd5f153c5076499628.js",
+        "https://bharatkalyan.github.io/statisticsOfVirus/favicon.ico",
+        "https://bharatkalyan.github.io/statisticsOfVirus/index.html",
+        "https://bharatkalyan.github.io/statisticsOfVirus/main.2b39a52fa59517815884.js",
+        "https://bharatkalyan.github.io/statisticsOfVirus/manifest.webmanifest",
+        "https://bharatkalyan.github.io/statisticsOfVirus/pdfmake.55e48264259cbae1ee56.js",
+        "https://bharatkalyan.github.io/statisticsOfVirus/polyfills.dbd6677c651a2d78e857.js",
+        "https://bharatkalyan.github.io/statisticsOfVirus/runtime.cd047ae94f8c290d8ce9.js",
+        "https://bharatkalyan.github.io/statisticsOfVirus/styles.09e2c710755c8867a460.css",
+        "https://bharatkalyan.github.io/statisticsOfVirus/xlsx.b1048ef777c55ad8a419.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-128x128.png",
+        "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-144x144.png",
+        "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-152x152.png",
+        "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-192x192.png",
+        "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-384x384.png",
+        "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-512x512.png",
+        "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-72x72.png",
+        "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "countries-api",
+      "patterns": [
+        "https:\\/\\/corona\\.lmao\\.ninja\\/v2\\/countries\\/ India, Nepal, Bangladesh, Pakistan, Bhutan, Sri Lanka, Maldives"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://bharatkalyan.github.io/statisticsOfVirus/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://bharatkalyan.github.io/statisticsOfVirus/canvg.2ccd5f153c5076499628.js": "5384c469610a9a8fffc7fc8134ee77984237e314",
+    "https://bharatkalyan.github.io/statisticsOfVirus/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://bharatkalyan.github.io/statisticsOfVirus/index.html": "2383936f7b66be6676b2e59c42b1d6d423b26ccb",
+    "https://bharatkalyan.github.io/statisticsOfVirus/main.2b39a52fa59517815884.js": "fe4faf5e910ce9e24a8e04aefd9b14930794503a",
+    "https://bharatkalyan.github.io/statisticsOfVirus/manifest.webmanifest": "5e7ffd7d4036c8b4d936a6b6ce3192ad1faba2a7",
+    "https://bharatkalyan.github.io/statisticsOfVirus/pdfmake.55e48264259cbae1ee56.js": "4674f056b5051818f3d7b068890cfde52ed03542",
+    "https://bharatkalyan.github.io/statisticsOfVirus/polyfills.dbd6677c651a2d78e857.js": "8067cc422567347ce6eec5c44ba94128683b96db",
+    "https://bharatkalyan.github.io/statisticsOfVirus/runtime.cd047ae94f8c290d8ce9.js": "da59ece9c4f6f9859dc063a54e8a036716ca46a4",
+    "https://bharatkalyan.github.io/statisticsOfVirus/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "https://bharatkalyan.github.io/statisticsOfVirus/xlsx.b1048ef777c55ad8a419.js": "cf38345b3335e9f6e64cde50e9580ca20c6dceda"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
