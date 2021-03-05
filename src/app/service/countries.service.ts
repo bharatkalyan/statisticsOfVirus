@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable, throwError } from "rxjs";
 import { HttpClient } from "@angular/common/http";
 import { catchError } from "rxjs/operators";
+import { environment} from "../../environments/environment"
 @Injectable({
   providedIn: 'root'
 })
@@ -10,9 +11,7 @@ export class CountriesService {
   constructor(private https: HttpClient) { }
 
   public getMultipleCountries(): Observable<any>{
-  let URL = "";
-  URL = "https://corona.lmao.ninja/v2/countries/ India, Nepal, Bangladesh, Pakistan, Bhutan, Sri Lanka, Maldives";
-  
+  const URL = environment.getMultipleCountries;
   return this.https.get<any>(URL).pipe(
     catchError((error) => {
       return throwError({
