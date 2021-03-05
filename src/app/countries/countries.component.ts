@@ -21,6 +21,12 @@ export class CountriesComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getCountires();
+  }
+
+  // Get countires
+
+  public getCountires(): void {
     this.countService.getMultipleCountries().subscribe((data) => {
       this.testArr = data;
       data.forEach((element) => {
@@ -41,9 +47,10 @@ export class CountriesComponent implements OnInit {
     });
   }
 
+  // create Am chart
+
   public createCountriesChart(): void {
     am4core.useTheme(am4themes_animated);
-    // Themes end
     // create chart
     const chart = am4core.create('chartdiv', am4plugins_sunburst.Sunburst);
     this.filteredData.forEach((item, i) => {
