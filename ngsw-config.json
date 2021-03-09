@@ -30,7 +30,7 @@
   "dataGroups": [
     {
       "name": "countries-api",
-      "urls": ["https://corona.lmao.ninja/v2/countries/ India, Nepal, Bangladesh, Pakistan, Bhutan, Sri Lanka, Maldives"],
+      "urls": ["http://localhost:3002/node"],
       "cacheConfig": {
         "strategy": "freshness",
         "maxSize": 20,

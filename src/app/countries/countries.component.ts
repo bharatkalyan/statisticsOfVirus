@@ -14,6 +14,7 @@ import { SwUpdate } from '@angular/service-worker';
 export class CountriesComponent implements OnInit {
   public filteredData: any[] = [];
   public testArr = [];
+  public update = false;
   constructor(private countService: CountriesService, updates: SwUpdate) {
     updates.available.subscribe((event) => {
       updates.activateUpdate().then(() => document.location.reload());
