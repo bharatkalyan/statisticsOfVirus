@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  getMultipleCountries: "http://localhost:3002/node"
+  getMultipleCountries: "http://localhost:3002/countries"
 };
 
 /*
