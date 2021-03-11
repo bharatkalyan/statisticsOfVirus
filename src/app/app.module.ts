@@ -5,14 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { CountriesComponent } from './countries/countries.component';
+import { StatisticsCountriesComponent } from './countries-statistics/countries-statistics.component';
 import { HttpClientModule } from '@angular/common/http';
-import { CountriesService } from './service/countries.service';
+import { StatisticsCountriesService } from './service/countries-statisctics.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CountriesComponent
+    StatisticsCountriesComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +20,7 @@ import { CountriesService } from './service/countries.service';
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [CountriesService],
+  providers: [StatisticsCountriesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

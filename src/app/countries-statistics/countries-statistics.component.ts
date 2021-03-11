@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CountriesService } from '../service/countries.service';
+import { StatisticsCountriesService } from '../service/countries-statisctics.service';
 import * as am4core from '@amcharts/amcharts4/core';
 import * as am4charts from '@amcharts/amcharts4/charts';
 import * as am4plugins_sunburst from '@amcharts/amcharts4/plugins/sunburst';
@@ -8,26 +8,26 @@ import { SwUpdate } from '@angular/service-worker';
 
 @Component({
   selector: 'app-countries',
-  templateUrl: './countries.component.html',
-  styleUrls: ['./countries.component.scss'],
+  templateUrl: './countries-statistics.component.html',
+  styleUrls: ['./countries-statistics.component.scss'],
 })
-export class CountriesComponent implements OnInit {
+export class StatisticsCountriesComponent implements OnInit {
   public filteredData: any[] = [];
   public testArr = [];
   public update = false;
-  constructor(private countService: CountriesService, updates: SwUpdate) {
+  constructor(private countService: StatisticsCountriesService, updates: SwUpdate) {
     updates.available.subscribe((event) => {
       updates.activateUpdate().then(() => document.location.reload());
     });
   }
 
   ngOnInit(): void {
-    this.getCountires();
+    this.getStatisticsCountries();
   }
 
-  // Get countires
+  // Get countries
 
-  public getCountires(): void {
+  public getStatisticsCountries(): void {
     this.countService.getMultipleCountries().subscribe((data) => {
       this.testArr = data;
       data.forEach((element) => {
